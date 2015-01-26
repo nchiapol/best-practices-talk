@@ -1,4 +1,5 @@
 try:
-    my_product(['abc', 1])
+    my_product(1,2,3)
 except TypeError:
-    print "'my_product' failed due to a 'TypeError'"
+    print "'my_product' expects a sequence"
+    raise TypeError

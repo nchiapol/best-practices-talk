@@ -1,0 +1,7 @@
+
+Demo Laptop
+-----------
+  cd /home/nchiapol/school/git-repo/Lectures/introduction/code
+  ipython
+  from my_product_minidoc import my_product
+

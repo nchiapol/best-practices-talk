@@ -1,7 +1,7 @@
-from my_product import my_product
+from numpy import prod, sum
 
 def my_func(numbers):
     """ Difference between sum and product of sequence. """
-    product_value = my_product(numbers)
     sum_value = sum(numbers)
+    product_value = prod(numbers)
     return product_value - sum_value
